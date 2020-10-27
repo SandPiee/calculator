@@ -1,20 +1,40 @@
 button {
 	color:white;
 	background-color: #222226;
-	border: 3px solid #222226;
+	border: 0px;
 	padding: 10px;
 	font-size: 32px;
 	width: 60px;
 	height: 60px;
 	margin: 5px;
-	border: 5px solid #222226;
 	border-radius: 6px;
 	transition: 0.5s transform;
+	transition: 0.5s box-shadow;
+	transition: 0.5s background-color;
 	position: relative;
 	left: 42px;
 	top: 210px;
-	box-shadow: 2px 2px 3px black;
 	outline:none;
+}
+
+#v1:hover {
+	background-color: #26262A;
+	box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+}
+
+#v1:active {
+	background-color: #29292E;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+button:hover {
+	background-color: #26262A;
+	box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+}
+
+button:active {
+	background-color: #29292E;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
 }
 
 #val1 {
@@ -30,24 +50,18 @@ button {
 #v1 {
 	color:white;
 	background-color: #222226;
-	border: 3px solid #222226;
+	border: 0px;
 	padding: 10px;
 	font-size: 32px;
 	width: 60px;
 	height: 60px;
 	margin: 5px;
-	border: 5px solid #222226;
 	border-radius: 6px;
 	transition: 0.5s transform;
 	position: relative;
 	left: 42px;
 	top: 210px;
-	box-shadow: 2px 2px 3px black;
 	outline:none;
-}
-
-#v1:hover {
-	transform:scale(1.1);
 }
 
 #char {
@@ -83,7 +97,6 @@ button {
 	left: 550px;
 	border: 3px solid #222224;
 	border-radius: 20px;
-	box-shadow: 3px 3px 10px black;
 }
 
 #display {
@@ -102,10 +115,6 @@ button {
 	position: relative;
 	bottom: 340px;
 	left: 5px;
-}
-
-button:hover {
-	transform:scale(1.1);
 }
 
 .none {
@@ -158,7 +167,6 @@ body {
 	left: 60px;
 	border: 3px solid #222224;
 	border-radius: 20px;
-	box-shadow: 3px 3px 10px black;
 	}
 
 	#calculator {
